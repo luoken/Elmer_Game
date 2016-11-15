@@ -12,14 +12,14 @@ public class Assets {
 		
 		
 		public static void init(){
-			SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/textures/Spritesheet_0.png"));
-			SpriteSheet environment = new SpriteSheet(ImageLoader.loadImage("/textures/top_down_environment_sheet.png"));
-			SpriteSheet lookLeft = new SpriteSheet(ImageLoader.loadImage("/textures/lookleft.png"));
+			SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/Spritesheet_0.png"));
+			SpriteSheet environment = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/top_down_environment_sheet.png"));
+			SpriteSheet lookLeft = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/lookleft.png"));
 			
-			SpriteSheet weapon = new SpriteSheet(ImageLoader.loadImage("/textures/banana-in-8-bit.png"));
-			SpriteSheet weaponRight = new SpriteSheet(ImageLoader.loadImage("/textures/banana-in-8-bitright.png"));
+			SpriteSheet weapon = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/banana-in-8-bit.png"));
+			SpriteSheet weaponRight = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/banana-in-8-bitright.png"));
 
-			SpriteSheet bananaitem = new SpriteSheet(ImageLoader.loadImage("/textures/pbj.png"));
+			SpriteSheet bananaitem = new SpriteSheet(ImageLoader.loadImage("/assets/topDown/pbj.png"));
 			
 			playerRight = sheet.crop(361, 10, 71, 71);
 			playerStand = sheet.crop(8, 8, 73, 73);
